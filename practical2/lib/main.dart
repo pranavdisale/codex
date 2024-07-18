@@ -5,6 +5,7 @@ import 'package:practical2/assignment3.dart';
 import 'package:practical2/assignment4.dart';
 import 'package:practical2/assignment5.dart';
 import 'package:practical2/assignment6.dart';
+import 'package:practical2/assignment7.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Assignment6(),
+      home: Assignment7(),
     );
   }
 }
